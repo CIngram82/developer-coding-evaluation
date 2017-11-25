@@ -1,96 +1,115 @@
 @font-face {
   font-family: 'Effra_Std_Bd';
-  src: url('../fonts/Effra_Std_Bd.ttf')  format('truetype');
+  src: url('../fonts/Effra_Std_Bd.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'Effra_Std_Lt';
   src: url('../fonts/Effra_Std_Lt.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'Effra_Std_Md';
   src: url('../fonts/Effra_Std_Md.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'Effra_Std_Rg';
   src: url('../fonts/Effra_Std_Rg.ttf') format('truetype');
 }
 
-body{
+body {
   margin: 0;
 }
-ul{
+
+ul {
   list-style: none;
   padding: 0;
 }
-.Cardinal{
+
+.Cardinal {
   padding: 5% 7%;
   height: 480px;
   background-color: #0B5E97;
 }
-.Cardinal h1{
+
+.Cardinal h1 {
   font-family: "Effra_Std_Rg";
   color: white;
   text-align: center;
   font-size: 4em;
 }
-.Things-we-do ul{
+
+.Things-we-do ul {
   padding: 7%;
   display: flex;
 }
-.Things-we-do ul li{
-}
-.Clients ul{
+
+.Things-we-do ul li {}
+
+.Clients ul {
   padding: 0 7%;
   display: flex;
   flex-wrap: wrap;
 }
-#Our-Clients{
+
+#Our-Clients {
   flex-direction: column;
-width: 420px;
+  width: 420px;
 }
-.Clients ul li{
-border: 1px solid black;
-margin: 7px;
-height: 200px;
-width: 200px;
-display: flex;
-align-items: center;
-justify-content: center;
+
+.Clients ul li {
+  border: 1px solid black;
+  margin: 7px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.Purell{
+
+.Purell {
   display: flex;
   flex-direction: row;
 }
-.Purell div{
+
+.Purell div {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
 }
-.FifthThird{
+
+.FifthThird {
   display: flex;
   flex-direction: row;
-  align-items:flex-start;
+  align-items: flex-start;
 }
-.Christ{
+
+.Christ {
   display: flex;
   flex-direction: row;
 }
-.Christ div{
+
+.Christ div {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
 }
-.Connect{
-  display: flex;
-  flex-direction: column;
-}
-.Connect form{
+
+.Connect {
   display: flex;
   flex-direction: column;
 }
-.bottom{
+
+.Connect form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom {
   display: flex;
 }
-footer{
+
+footer {
   display: flex;
 }
