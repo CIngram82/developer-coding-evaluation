@@ -25,6 +25,20 @@ body {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+
+section{
+display: flex;
+}
+a{
+  text-decoration: none;
+}
+
+.Text-block{
+  display: flex;
+  flex-direction: column;
+  width: 220px;
 }
 
 .Cardinal {
@@ -38,14 +52,31 @@ ul {
   color: white;
   text-align: center;
   font-size: 4em;
+  margin-top: 120px;
 }
 
 .Things-we-do ul {
+  height: 280px;
   padding: 7%;
   display: flex;
+  background-color: #F0F0F0;
+}
+.Things-we-do li {
+height: 130px;
+width: 270px;
+display: flex;
+align-items: flex-start;
 }
 
-.Things-we-do ul li {}
+.Things-we-do li img,h3{
+  display: inline;
+  margin: 0;
+}
+
+
+.Clients ul:first-of-type{
+  margin-top: -60px;
+}
 
 .Clients ul {
   padding: 0 7%;
@@ -53,41 +84,68 @@ ul {
   flex-wrap: wrap;
 }
 
-#Our-Clients {
+.Our-Clients {
+  margin: 7px;
+  border: 1px solid black;
   flex-direction: column;
   width: 420px;
+  background-color: #383D49;
+  color: white;
+  box-shadow: 0 0 30px gray;
 }
 
-.Clients ul li {
+.Client-Logo{
+  background-color: white;
   border: 1px solid black;
-  margin: 7px;
+  margin: 8px;
   height: 200px;
   width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+/*Current working area*/
 .Purell {
+  padding: 30px 60px 0 60px;
   display: flex;
   flex-direction: row;
+  background-color: #E9E9E9;
+  height: 480px;
+  background-image: url("../images/pic-gojo-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
-.Purell div {
+.Gojo {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 130px 50px 0 50px;
+}
+
+.Gojo a {
+  width: 120px;
+  border-radius: 5px;
+  background-color: #0586D3;
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  font-family: "Effra_Std_Md";
 }
 
 .FifthThird {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  background-color: #313E4C;
+  background-image: url("../images/pic-fifththird-bg.png");
 }
 
 .Christ {
   display: flex;
   flex-direction: row;
+  background-color: #0E77C6;
+  background-image: url("../images/atg-1-christhospital_bg.png");
 }
 
 .Christ div {
@@ -99,17 +157,49 @@ ul {
 .Connect {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 0 50px;
+  border-right: 2px solid #D8D8D8;
 }
 
 .Connect form {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 430px;
+  height: 325px;
+}
+
+
+.inqueries{
+padding: 0 40px;
+/*display: flex;*/
+/*flex-direction: column;*/
+/*justify-content: space-between;*/
+}
+
+.inqueries img{
+  height: 110px;
+  width: 110px;
+  background-color: green;
 }
 
 .bottom {
   display: flex;
+  background-color: #EEEEEE;
+  height: 400px;
+  padding: 70px;
 }
 
 footer {
   display: flex;
+  background-color: #D8D8D8;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+}
+.Footer-right{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
 }
