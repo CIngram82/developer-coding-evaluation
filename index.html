@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Cardinal Coding Evaluation</title>
   <link rel="stylesheet" href="assets/css/master.css">
-  <link rel="shortcut icon" href="assets\icons\favicon.ico">
+  <link rel="shortcut icon" href="assets/icons/favicon.ico">
 </head>
 
 <body>
@@ -25,13 +25,17 @@
         </li>
         <li>
           <img src="assets/icons/icon-appdev.svg" alt="Line drawing of ruler and pencil">
+          <div class="Text-block">
           <h3>App Development</h3>
           <p>Our moblie specialists work to create rich, easy-to-use consumer or enterprise experiences for iOS, Android.</p>
+        </div>
         </li>
         <li>
           <img src="assets/icons/icon-ba.svg" alt="Line drawing of a light bulb">
+          <div class="Text-block">
           <h3>Business Analysis</h3>
           <p>Great strategy begins with listening. We learn about businesses from the inside out, and then propose improvements.</p>
+        </div>
         </li>
       </ul>
     </div>
@@ -53,7 +57,7 @@
     </div>
     <div class="Purell">
       <img src="assets/images/pic-gojo.png" alt="Purell gojo dispencer and mobile app">
-      <div class="Gojo">
+      <div class="Gojo Description">
         <h2>Gojo</h2>
         <h4>Internet of things</h4>
         <p>Reducing the spread of hospital infections with the Internet of Things.</p>
@@ -61,9 +65,9 @@
       </div>
     </div>
     <div class="FifthThird">
-      <div class="">
-        <h5>Fifth Third Bank</h5>
-        <h6>Mobile app</h6>
+      <div class="Description">
+        <h2>Fifth Third Bank</h2>
+        <h4>Mobile app</h4>
         <p>Reimagine what a mobile banking experience should be, focusing on the user rather than the technology.</p>
         <a href="#">View App</a>
       </div>
@@ -71,9 +75,9 @@
     </div>
     <div class="Christ">
       <img src="assets/images/pic-chhn.png" alt="Monitor, Tablet, and Phone showing The Christ Hospital Health Network website.">
-      <div class="CHHN-content">
-        <h5>The Christ Hospital Health Network</h5>
-        <h6>digital platform</h6>
+      <div class="Description">
+        <h2>The Christ Hospital Health Network</h2>
+        <h4>digital platform</h4>
         <p>A digital front door to the finest patient experiences.</p>
         <a href="#">Learn More</a>
       </div>
@@ -83,27 +87,29 @@
         <h3>Connect With Us</h3>
         <h5>Have a question or just want to chat? Get it touch.</h5>
         <form class="" action="index.html" method="post">
-          <input type="text" name="Name" value="Name" placeholder="Name">
-          <input type="email" name="Email" value="Email" placeholder="Email">
+          <input type="text" name="Name" placeholder="Name">
+          <input type="email" name="Email" placeholder="Email">
           <textarea name="Message" rows="8" cols="80" placeholder="Message"></textarea>
-          <input type="submit" name="Submit">
+          <input class="subm" type="submit" name="Submit">
         </form>
       </div>
       <div class="inqueries">
-        <h4>For inqueries, please contact:</h4>
-      <div>
-        <p>Tracy Thompson</p>
-        <p>tthompson@cardinalsolutions.com</p>
-        <h5>704.936.4444</h5>
-      </div>
-      <div>
-        <h4>Come by our office</h4>
-        <p>222 S. Church St. Suite 500,</p>
-        <p>Charlotte, NC 28202</p>
-      </div>
-        <img src="" alt="">
-        <!-- TODO add map -->
-        <a href="#">Find parking on our map!</a>
+        <div>
+          <h4>For inqueries, please contact:</h4>
+          <p>Tracy Thompson <br />
+          tthompson@cardinalsolutions.com</p>
+          <h5>704.936.4444</h5>
+        </div>
+        <div>
+          <h4>Come by our office</h4>
+          <p>222 S. Church St. Suite 500,<br />
+          Charlotte, NC 28202</p>
+        </div>
+        <div>
+          <img src="assets/images/TempMap.png" alt="Map of Cardinal Solutions Charlotte Office">
+          <!-- TODO add map -->
+          <a href="#">Find parking on our map!</a>
+        </div>
       </div>
     </div>
   </main>
