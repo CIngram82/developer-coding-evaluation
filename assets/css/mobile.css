@@ -1,0 +1,158 @@
+/*@media (max-width:900px) {*/
+
+@media all and (max-width: 900px) {
+  .Cardinal h1{
+    font-size: 1.5em;
+  }
+  .Cardinal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 275px;
+  }
+
+  .Things-we-do {
+    height: 625px;
+  }
+
+  .Things-we-do ul {
+    flex-direction: column;
+    padding: 0;
+  }
+  .Things-we-do li {
+    width: auto;
+    height: auto;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Text-block {
+    width: auto;
+  }
+  .Clients {
+    height: 825px;
+  }
+  .Clients ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Client-Logo {
+    width: 100%;
+    height: 80px;
+  }
+  .Client-Logo img {
+    object-fit: scale-down;
+    height: 80%;
+  }
+
+  .Our-Clients {
+    height: 200px;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .Our-Clients p {
+    padding: 0 15%;
+    font-size: .75em;
+  }
+  .Description {
+    align-items: flex-start;
+    width: 90%;
+    font-size: 100%;
+    padding: 0;
+  }
+  .Purell {
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+    height: 540px;
+    padding: 0;
+  }
+  .Purell img {
+    margin: 50px 0;
+    padding: 0 10%;
+    width: 80%;
+    background-image: url("../images/pic-gojo-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 150%;
+  }
+  .FifthThird {
+    flex-direction: column-reverse;
+    height: 800px;
+  }
+  .FifthThird img {
+    width: 75%;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  .FifthThird .Description {
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 30%;
+  }
+  .FifthThird p {
+    width: 75%;
+    text-align: center;
+  }
+  .Christ {
+    flex-direction: column;
+    height: 575px;
+  }
+  .Christ img {
+    object-fit: contain;
+    position: relative;
+    left: 50px;
+    height: 50%;
+  }
+  .Christ .Description {
+    margin: 0 auto;
+
+  }
+
+  .bottom {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 900px;
+    padding: 5%;
+  }
+  .Connect {
+    border-right: none;
+    border-bottom: 2px solid #D8D8D8;
+    padding: 0 0 40px 0;
+    text-align: center;
+  }
+
+  .Connect h5 {
+    width: 225px;
+  }
+
+  .Connect form {
+    width: 100%;
+    align-items: center;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  textarea{
+    width: 90%;
+  }
+
+  .inqueries {
+    align-items: center;
+    text-align: center;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    height: 110px;
+  }
+}
