@@ -73,10 +73,10 @@
     padding: 0;
   }
   .Purell img {
-    padding: 0 10%;
-    height: 70%;
-    width: 70%;
-    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    margin: 10px auto;
     object-fit: contain;
     background-image: url("../images/pic-gojo-bg.png");
     background-repeat: no-repeat;
@@ -89,7 +89,9 @@
     height: 800px;
   }
   .FifthThird img {
-    object-fit: contain;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
 
   }
   .FifthThird .Description {
